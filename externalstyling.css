@@ -1,0 +1,325 @@
+*{
+			margin: 0px;
+			font-family: 'Press Start 2P', serif;
+			}
+
+#bubbleman{
+	background-color: #2E6F40;
+}
+
+#airman{
+	background-color: #04d9ff;
+}
+
+#quickman{
+	background-color:  #FFAE42;
+}
+#heatman{
+	background-color: #FA2A55;
+}
+
+#drwilly{
+	background-color: #FFFFFF;
+}
+#woodman{
+	background-color:  #FFA500;
+}
+#flashman{
+	background-color: #000370;
+}
+#crashman{
+	background-color:  #FF3131;
+}
+
+#metalman{
+	background-color: rgb(220,40,75);
+
+}
+
+
+
+
+#metalmanheader{
+	height: 250px;
+	width: 100%;
+	display: flex;
+}
+
+#megamanlogo{
+	height: 250px;
+	width: 25%;
+}
+
+#bossname{
+	height: 250px;
+	width: 75%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-size: 40px;
+	color: white;
+}
+
+#bossselect{
+	background-color: #0071EF;
+	color: white;
+	text-align: center;
+}
+			
+			#text{
+				padding-top: 30px;
+				text-align: center;
+				height: 50px;
+				width: 100%;
+				position: relative;
+			}
+			
+			h2{
+				padding-right: 20px;
+				padding-left: 20px;
+			}
+			#div1{
+				background-color: white;
+				height: 5px;
+				width: 100%px;
+				border: 2.65px, white;
+			}
+			#div2{
+				height: 5px;
+				width: 100%;
+				
+			}
+		
+			a{
+			padding-left: 20px;
+			padding-right: 5px;
+			text-decoration: none;
+			font-size: 15px;
+			}
+			
+			#content{
+			display: flex;
+			padding-top: 10px;
+			padding-left: 220px;
+		
+			}
+			
+			#metalmannav{
+			padding-top: 18px;
+			padding-bottom: 18px;
+			background-color: yellow;
+			padding-left: 200px;
+			}
+			
+
+			
+			#bubblemannav{
+			padding-top: 18px;
+			padding-bottom: 18px;
+			background-color: #00008B;
+			padding-left: 200px;
+			}
+			
+			#airmannav{
+			padding-top: 18px;
+			padding-bottom: 18px;
+			background-color: #FFAE42;
+			padding-left: 200px;
+			}
+			
+			#quickmannav{
+			padding-top: 18px;
+			padding-bottom: 18px;
+			background-color: red;
+			padding-left: 200px;
+			}
+			
+			#heatmannav{
+			padding-top: 18px;
+			padding-bottom: 18px;
+			background-color:  #FFAE42;
+			padding-left: 200px;
+			}
+			
+			#drwillynav{
+			padding-top: 18px;
+			padding-bottom: 18px;
+			background-color: #00F0FF;
+			padding-left: 200px;
+			}
+			
+			#woodmannav{
+			padding-top: 18px;
+			padding-bottom: 18px;
+			background-color:  #DFCAA0;
+			padding-left: 200px;
+			}
+			
+			#flashmannav{
+			padding-top: 18px;
+			padding-bottom: 18px;
+			background-color: #C8AD7E;
+			padding-left: 200px;
+			}
+			
+			#crashmannav{
+			padding-top: 18px;
+			padding-bottom: 18px;
+			background-color: white;
+			padding-left: 200px;
+			}
+			
+			a:hover{
+			background-color: red;
+			color: yellow;
+			}
+		
+			#bossselectfirstrow{
+				height: 50px;
+				width: 100%;
+				background-color: #0071EF;
+				position: relative;
+				top: 90px;
+			}
+			
+			#bossselectsecondrow{
+				padding-top: 120px;
+				height: 50px;
+				width: 100%;
+				position: relative;
+				top: 90px;
+			}
+			
+			#bossselectthirdrow{
+				padding-top: 120px;
+				height: 50px;
+				width: 100%;
+				position: relative;
+				top: 90px;
+			}
+			
+			#skinny, #thick{
+				width: 100%;
+				background-color: #00EBDE;
+				margin-top: 4px;
+				margin-bottom: 4px;
+			}
+			
+			#skinny{
+				height: 2.2px;
+				margin-top: 2.75px;
+				margin-bottom: 2.75px;
+			}
+			
+			#thick{
+				height: 24px;
+			}
+			
+			#skinny1{
+				height: 2.2px;
+				background-color: white;
+			}
+			
+			#skinny2{
+				height: 2.2px;
+			}
+			
+			#skinny1, #skinny2{
+				width: 100%;
+				margin-top: 4px;
+				margin-bottom: 4px;
+			}
+			
+			
+			
+			#bubblemansquare1, #airmansquare1{
+				height: 180px;
+				width: 180px;
+				background-color: white;
+				border: solid 4px black;
+				position: absolute;
+				top: -60px;
+				left: 20.5%;
+				justify-content: center;
+				align-items: center;
+				display: flex;
+			}
+			
+			#airmansquare1{
+				position: absolute;
+				top: -60px;
+				left: 40%;
+			}
+			
+			#bubblemansquare2, #airmansquare2{
+				height: 170px;
+				width: 170px;
+				background-color: cyan;
+				border: solid 2px black;
+				justify-content: center;
+				align-items: center;
+				display: flex;
+			}
+			
+			#bubblemansquare3, #airmansquare3{
+				height: 155px;
+				width: 155px;
+				background-color: cyan;
+				border: solid 2px white;
+				justify-content: center;
+				align-items: center;
+				display: flex;
+			}
+			#headshotholder{
+				height: 145px;
+				width: 145px;
+				justify-content: center;
+				align-items: center;
+				display: flex;
+			}
+			
+			#newpic{
+				padding-left: 70px;
+				padding-top: 70px;
+			}
+			
+			#bubblemanheadshot, #airmanheadshot{
+				height: 100%;
+				width: 100%;
+			}
+			
+			#blackcornersquare1{
+				height: 18px;
+				width: 18px;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				background-color: black;
+			}
+			
+			#blackcornersquare2{
+				height: 18px;
+				width: 18px;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				background-color: black;
+			}
+			
+			#blackcornersquare3{
+				height: 18px;
+				width: 18px;
+				position: absolute;
+				bottom: 0px;
+				left: 0px;
+				background-color: black;
+			}
+			
+			#blackcornersquare4{
+				height: 18px;
+				width: 18px;
+				position: absolute;
+				bottom: 0px;
+				right: 0px;
+				background-color: black;
+			}
